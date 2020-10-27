@@ -1,5 +1,5 @@
 provider "consul" {
-  address  = "172.17.0.3:8500"
+  address  = "172.17.0.4:8500"
 }
 resource "consul_keys" "test" {
   key {
