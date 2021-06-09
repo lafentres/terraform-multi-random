@@ -3,7 +3,7 @@ resource "random_id" "random" {
     uuid = uuid()
   }
 
-  byte_length = 13
+  byte_length = 14
 }
 
 module "local-random" {
